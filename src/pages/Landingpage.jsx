@@ -1,12 +1,19 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import { LampDemo } from "../components/LampEffect"; // Named import
 
 const Landingpage = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* Navbar */}
+      <Navbar />
+      
+      {/* Lamp Effect */}
+      <LampDemo />
+
+      {/* Footer */}
     </div>
-  )
+  );
 }
 
-export default Landingpage
+export default Landingpage;

@@ -19,15 +19,16 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/services" className="text-white hover:text-green-400">
-              Services
-            </a>
-          </li>
-          <li>
             <a href="/about" className="text-white hover:text-green-400">
               About
             </a>
           </li>
+          <li>
+            <a href="/services" className="text-white hover:text-green-400">
+              Services
+            </a>
+          </li>
+          
           <li>
             <a href="contact" className="text-white hover:text-green-400">
               Contact

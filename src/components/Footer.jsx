@@ -1,5 +1,8 @@
 import React from 'react';
-
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10">
@@ -25,10 +28,10 @@ const Footer = () => {
         </ul>
 
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#" className="hover:text-green-400">Facebook</a>
-          <a href="#" className="hover:text-green-400">Twitter</a>
-          <a href="#" className="hover:text-green-400">Instagram</a>
-          <a href="#" className="hover:text-green-400">LinkedIn</a>
+          <a href="#" className="hover:text-green-400"><FaFacebook /></a>
+          <a href="#" className="hover:text-green-400"><FaTwitter /></a>
+          <a href="#" className="hover:text-green-400"><FaInstagram /></a>
+          <a href="#" className="hover:text-green-400"><FaLinkedin /></a>
         </div>
       </div>
 

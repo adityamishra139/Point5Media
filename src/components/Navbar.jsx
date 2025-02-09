@@ -14,22 +14,23 @@ const Navbar = () => {
         
         <ul className="flex space-x-12 text-xl font-medium">
           <li>
-            <a href="#" className="text-white hover:text-green-400">
+            <a href="/" className="text-white hover:text-green-400">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-green-400">
-              Services
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white hover:text-green-400">
+            <a href="/about" className="text-white hover:text-green-400">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-green-400">
+            <a href="/services" className="text-white hover:text-green-400">
+              Services
+            </a>
+          </li>
+          
+          <li>
+            <a href="contact" className="text-white hover:text-green-400">
               Contact
             </a>
           </li>
@@ -37,13 +38,13 @@ const Navbar = () => {
 
         <div className="flex space-x-3">
           <a
-            href="#"
+            href="/signin"
             className="bg-black text-white px-5 py-2 rounded-full hover:bg-green-600 transition-all"
           >
             Sign In
           </a>
           <a
-            href="#"
+            href="/signup"
             className="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition-all"
           >
             Get Started
